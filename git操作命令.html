@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		1.创建一个文件夹desk
+		2.cd Desktop 进入桌面  cd desk 进入我创建的这个文件夹
+		3.touch index.html 在desk的文件夹里面创建一个名叫index 后缀为html的文件
+		3.git init 初始化一个空的仓库
+		4.git config —global user.name “mengpengchong” 备注名字
+		5.git config —global user.email “1850895863@q.com”	备注邮箱
+		6.git add . 添加所有文件
+		7.git status 查看状态
+		8.git commit -m “8.1homework” 把东西上传到本地仓库
+		9.git branch first 创建一个名叫first的分支
+		10.git checkout first 切换到这个分支当中
+		11.touch login.html 在分支当中创建一个名叫login的文件 这个不会影响到主线
+		12.git checkout master 切换到主线当中
+		13.git merge first 把first的这个分支合并到主线当中
+		14.输入 git remote add origin https://github.com/mengpengchong/look.git
+		(look代表已有仓库的名称)
+		15.输入 git push -u origin master  上传成功
+
+		——如要修改已上传的文件 修改完之后
+		1.git add . 全部添加
+		2.git commit -m “this is a test” 备注 
+		3.输入 git push -u origin master   上传成功
+
+	</div>
+</body>
+</html>
